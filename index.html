@@ -487,13 +487,13 @@
           </div>
         </div>
       </section>
-      <!-- Testimonials-->
+      <!-- Blog-->
       <section class="single-section testimonials-area alt-bg" id="testimonials-area">
         <div class="container">
           <div class="row">
             <div class="col-12">
               <div class="section-heading">
-                <h2 class="section-title">Testimonials</h2>
+                <h2 class="section-title">Blog</h2>
                 <p class="section-description">What my clients think about me</p>
               </div>
             </div>
@@ -598,7 +598,7 @@
           <div class="row">
             <!-- Contact form-->
             <div class="col-12">
-              <form class="contact-form" id="contact-form" action="php/contact.php">
+              <form class="contact-form" id="contact-form" name="contact" method="POST" data-netlify="true">
                 <div class="row">
                   <div class="col-12 col-md-6 form-group"><input class="form-control" id="contact-name" type="text" name="name" placeholder="Name" required=""></div>
                   <div class="col-12 col-md-6 form-group"><input class="form-control" id="contact-email" type="email" name="email" placeholder="Email" required=""></div>
@@ -653,6 +653,9 @@
   <script src="js/main.js"></script>
   <!-- Custom JS (Add your custom JS scripts to this file)-->
   <script src="js/custom.js"></script>
+
+  <!-- Used for my form submittions -->
+  <script src="js/form.js"></script>
 </body>
 
 </html>
