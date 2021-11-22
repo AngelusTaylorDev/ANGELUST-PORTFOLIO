@@ -1,12 +1,3 @@
-/*!
-  * Item: CodeX
-  * Description:  Personal Portfolio / Resume / CV / vCard Template
-  * Author/Developer: Exill
-  * Author/Developer URL: https://themeforest.net/user/exill
-  * Version: v1.0.0
-  * License: Themeforest Standard Licenses: https://themeforest.net/licenses
-  */
-
 /*----------- Table of Contents -----------*/
 /**
  * Globals
@@ -841,9 +832,10 @@ hr {
   transition: all 0.15s ease-in-out;
 }
 
-.services-area .single-service .service-icon {
+.services-area .single-service #fabIcons {
+  color: #dc3545;
   display: inline-block;
-  font-size: 50px;
+  font-size: 80px;
   margin-bottom: 22px;
 }
 
