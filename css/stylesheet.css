@@ -167,6 +167,11 @@ img {
   vertical-align: inherit;
 }
 
+.portfolioImg {
+
+  height: 250px;
+}
+
 a, a:focus {
   color: #d63384;
   -webkit-transition: all 0.2s ease;
