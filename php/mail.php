@@ -52,6 +52,14 @@ if (isset($_POST['name'])) {
 ---------------------------------------------------*/
 
 $mail = new PHPMailer(true);
+$mail->isSMTP();
+$mail->SMTPDebug = 0;
+$mail->Host = 'smtp.gmail.com';
+$mail->SMTPAuth = true;
+$mail->Username = "andysainttaylor@gmail.com";
+$mail->Password = "xpfueviswhxqcgwi";
+$mail->SMTPSecure = 'tls';
+$mail->Port = 587;
 
 /* Add your SMTP Codes after this Line */
 
