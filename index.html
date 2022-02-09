@@ -675,7 +675,7 @@
                     <!-- Contact Form -->
                     <div class="row wow fadeInUp">
                         <div class="col-lg-10 col-xl-9 mx-auto">
-                            <form id="contact-form" name="contact" method="POST" data-netlify="true">
+                            <form id="contact-form" name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
                                 <div class="row g-4">
                                     <div class="col-md-6">
                                         <input name="name" type="text" class="form-control border-2" required
@@ -689,8 +689,7 @@
                                         <textarea name="message" class="form-control border-2" rows="5" required
                                             placeholder="Tell us more about your needs........"></textarea>
                                     </div>
-                                    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-                                    <div id="recaptcha-v2" data-sitekey="6Ler1WoeAAAAANusbVgTke5j5yDe_cI--8EBQndi" class="g-recaptcha" ></div>
+                                    <div data-netlify-recaptcha="true"></div>
                                     <div class="col-md-12 text-center">
                                         <button id="submit-btn" class="btn btn-primary rounded-pill d-inline-flex"
                                             type="submit">Send Message</button>
