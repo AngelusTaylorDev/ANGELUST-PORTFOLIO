@@ -20,15 +20,15 @@ require './phpmailer/src/SMTP.php';
   // Receiver's Email
 --------------------------------------------- */
 
-$toEmail = "your-email@website.com"; // Replace Your Email Address
+$toEmail = "andysainttaylor@gmail.com"; // Replace Your Email Address
 
 
 /* --------------------------------------------
   // Sender's Email
 --------------------------------------------- */
 
-$fromEmail = "no-reply@website.com";  // Replace Company's Email Address (preferably currently used Domain Name)
-$fromName = "Company Name"; // Replace Company Name
+$fromEmail = "andysainttaylor@gmail.com";  // Replace Company's Email Address (preferably currently used Domain Name)
+$fromName = "Angelus Taylor"; // Replace Company Name
 
 
 /* --------------------------------------------
@@ -36,7 +36,7 @@ $fromName = "Company Name"; // Replace Company Name
   --------------------------------------------- */
 
 // Add this only if you want to use Google reCaptcha with your Contact Forms.
-$recaptcha_secret = 'YOUR_RECAPTCHA_SECRET_KEY'; // Your Google reCaptcha Secret
+$recaptcha_secret = '6Ler1WoeAAAAANusbVgTke5j5yDe_cI--8EBQndi'; // Your Google reCaptcha Secret
 
 
 /* --------------------------------------------
